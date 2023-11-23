@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Audiowide", sans-serif;
+
+}
+
+
+
+header {
+  background-image: url(https://381ctf.com.br/wp-content/uploads/2022/02/Treino-Funcional-de-Muay-Thai-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: azure;
+}
+
+nav { 
+  
+  background: aqua;
+  padding: 20px;  
+}
+
+
+
+
+article {
+/*   float: left;
+ 
+  width: 75%; */
+  padding: 20px;
+  background-color: aqua;
+  
+
+}
+
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: aqua;
+  border: 1px solid #555;
+  display: flex;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  padding: 30px;
+  text-decoration: none;
+  width: 20%;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  width: 20%;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
